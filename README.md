@@ -21,7 +21,6 @@ I'm especially interested in Ethereum development, smart contract engineering, d
 ### 📌 Focus Areas
 
 - 🔹 Smart contracts (Solidity · Ethereum)
-- 🔹 Systems learning through Rust tooling
 - 🔹 AI agents and automation workflows using Python
 - 🔹 Backend engineering with Ruby on Rails
 
