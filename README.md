@@ -38,7 +38,7 @@ I'm especially interested in Ethereum development, smart contract engineering, d
 
 ### 📫 Connect
 
-- Telegram: **t.me/kazdov**
+- Telegram: **t.me/kazdoveth**
 - GitHub: **@OriginalKazdov**
 
 ---
