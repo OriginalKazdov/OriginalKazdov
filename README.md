@@ -1,10 +1,20 @@
-# AI Engineer — Production Systems
+# Software Engineer — Backend, Cloud & Security Engineering
 
-I build AI systems that are **reliable, observable, and intelligent**. RAG engines, AI agents, and LLM observability platforms — designed for production, not demos.
+Backend and cloud engineer (Python, AWS) moving into **security engineering** on the defensive side: detection and response.
+
+I have built production backends and AI systems: FastAPI services on AWS, RAG engines, AI agents and LLM observability. Now I am learning how systems like those are attacked, monitored and defended.
 
 ---
 
-### What I Build
+### Currently
+
+- Cybersecurity degree (Licenciatura en Ciberseguridad) at Universidad de Palermo, Buenos Aires. In progress.
+- Hack The Box Academy: working through the Junior Cybersecurity Associate (CJCA) path. The SOC Analyst path (CDSA) comes next.
+- Where I'm heading: detection and response engineering, automating defensive work with code.
+
+---
+
+### What I've Built
 
 **[Adaptive RAG Engine](https://github.com/OriginalKazdov/adaptive-rag)** — RAG system that dynamically selects its retrieval strategy per query. Hybrid search (vector + BM25 + RRF), self-evaluation pipeline, semantic chunking, and refusal path. 88 tests.
 
@@ -25,25 +35,18 @@ The three projects form an **ecosystem**: Observatory instruments the other two,
 ![Anthropic](https://img.shields.io/badge/Claude_API-191919?style=for-the-badge&logo=anthropic&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-**AI/ML:** Claude API, OpenAI Embeddings, Qdrant, BM25, Cohere Rerank, RAGAS evaluation
-
 **Backend:** Python 3.12, FastAPI, Pydantic v2, SQLite, SSE streaming
 
+**Cloud & Infra:** AWS (Lambda, RDS, S3, ECR, IAM), Terraform, Docker Compose, Nginx
+
+**AI/ML:** Claude API, OpenAI Embeddings, Qdrant, BM25, Cohere Rerank, RAGAS evaluation
+
 **Frontend:** React 18, Tailwind CSS, Recharts, Vite
-
-**Infra:** Docker Compose, Nginx
-
----
-
-### GitHub Stats
-
-![Kazdov's GitHub stats](https://github-readme-stats.vercel.app/api?username=OriginalKazdov&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OriginalKazdov&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
 ### Connect
 
+- LinkedIn: **[linkedin.com/in/juancruzdovzak](https://www.linkedin.com/in/juancruzdovzak)**
 - Telegram: **[t.me/kazdoveth](https://t.me/kazdoveth)**
 - X: **[@kazdovETH](https://x.com/kazdovETH)**
