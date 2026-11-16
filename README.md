@@ -1,52 +1,44 @@
 # Software Engineer — Backend, Cloud & Security Engineering
 
-Backend and cloud engineer (Python, AWS) moving into **security engineering** on the defensive side: detection and response.
+I build backend and cloud systems, and I'm moving into **security engineering** on the defensive side: detection and response.
 
-I have built production backends and AI systems: FastAPI services on AWS, RAG engines, AI agents and LLM observability. Now I am learning how systems like those are attacked, monitored and defended.
-
----
-
-### Currently
-
-- Cybersecurity degree (Licenciatura en Ciberseguridad) at Universidad de Palermo, Buenos Aires. In progress.
-- Hack The Box Academy: working through the Junior Cybersecurity Associate (CJCA) path. The SOC Analyst path (CDSA) comes next.
-- Where I'm heading: detection and response engineering, automating defensive work with code.
+Buenos Aires, Argentina · English and Spanish
 
 ---
 
-### What I've Built
+### Now
 
-**[Adaptive RAG Engine](https://github.com/OriginalKazdov/adaptive-rag)** — RAG system that dynamically selects its retrieval strategy per query. Hybrid search (vector + BM25 + RRF), self-evaluation pipeline, semantic chunking, and refusal path. 88 tests.
+- **Hack The Box Academy** — Junior Cybersecurity Associate (CJCA) path, in progress. Done so far: Linux Fundamentals, Bash Scripting, Network Foundations, Introduction to Networking, Web Requests, Introduction to Web Applications, Windows Fundamentals.
+- **Next** — the SOC Analyst path (CDSA): SIEM, log analysis and incident handling.
+- **Degree in Cybersecurity** (Licenciatura) at Universidad de Palermo, in progress.
 
-**[Agent Framework + DevTools](https://github.com/OriginalKazdov/agent-framework)** — Lightweight framework for building AI agents with full execution traces. `@tool` decorator, ReAct + Planning modes, SQLite trace persistence, memory system, and Trace Explorer UI. 69 tests.
+### Background
 
-**[AI Pipeline Observatory](https://github.com/OriginalKazdov/pipeline-observatory)** — LLM observability SDK. Auto-instruments OpenAI/Anthropic with 3 lines of code. Cost tracking, quality scoring, hallucination detection, and EMA-based drift alerts. 28 tests.
+- **AI Engineer, Slice** (2025–2026) — LLM integrations in production services.
+- **Backend & Cloud Developer, DAMM Capital** (2024) — FastAPI services on AWS Lambda, PostgreSQL on RDS, Docker images on ECR, scoped IAM permissions between services, Terraform.
+- **Freelance developer** (2022–2025).
 
-The three projects form an **ecosystem**: Observatory instruments the other two, providing a unified monitoring layer across RAG and agent pipelines.
+### Projects
 
----
+Tools I built for running AI systems in production. None of them is a security tool. They share the habits I want to bring to detection work: instrument everything, alert when behaviour changes, and explain the failure.
 
-### Tech Stack
+- **[pipeline-observatory](https://github.com/OriginalKazdov/pipeline-observatory)** — Observability SDK for LLM applications. It patches the OpenAI and Anthropic clients and records latency, cost and quality for every call, with drift alerts based on an exponential moving average.
+- **[adaptergate](https://github.com/OriginalKazdov/adaptergate)** — CI gate for fine-tuned model adapters. It compares a candidate against the current baseline on held-out data, blocks the release when quality drops, and reports which group of queries regressed.
+- **[agent-framework](https://github.com/OriginalKazdov/agent-framework)** — Framework for AI agents where every step (reasoning, tool call, result) is traced and stored in SQLite, with a UI to inspect a run afterwards.
+- **[adaptive-rag](https://github.com/OriginalKazdov/adaptive-rag)** — Retrieval system that classifies each query and picks a search strategy for it, including refusing to answer when it has no grounds to.
 
-![Python](https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React.js](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Claude_API-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+### Stack
 
-**Backend:** Python 3.12, FastAPI, Pydantic v2, SQLite, SSE streaming
+- **Languages:** Python, Bash, SQL
+- **Backend:** FastAPI, Pydantic, PostgreSQL, SQLite
+- **Cloud:** AWS (Lambda, RDS, S3, ECR, IAM), Terraform, Docker
+- **AI:** Claude and OpenAI APIs, retrieval (RAG), evaluation
+- **Learning:** Linux and Windows administration, networking, web fundamentals
 
-**Cloud & Infra:** AWS (Lambda, RDS, S3, ECR, IAM), Terraform, Docker Compose, Nginx
+### Contact
 
-**AI/ML:** Claude API, OpenAI Embeddings, Qdrant, BM25, Cohere Rerank, RAGAS evaluation
+Open to security engineering, cloud security and backend or infrastructure roles, remote.
 
-**Frontend:** React 18, Tailwind CSS, Recharts, Vite
-
----
-
-### Connect
-
-- LinkedIn: **[linkedin.com/in/juancruzdovzak](https://www.linkedin.com/in/juancruzdovzak)**
-- Telegram: **[t.me/kazdoveth](https://t.me/kazdoveth)**
-- X: **[@kazdovETH](https://x.com/kazdovETH)**
+- LinkedIn: [linkedin.com/in/juancruzdovzak](https://www.linkedin.com/in/juancruzdovzak)
+- Telegram: [t.me/kazdoveth](https://t.me/kazdoveth)
+- X: [@kazdovETH](https://x.com/kazdovETH)
