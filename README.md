@@ -6,6 +6,10 @@ Buenos Aires, Argentina · English and Spanish
 
 ---
 
+### Security research
+
+- **[CVE-2026-104850](https://github.com/modelcontextprotocol/typescript-sdk/security/advisories/GHSA-6qxp-vccf-f47h)** (High, CVSS 7.5) — credited reporter. I independently reported a flaw in the OAuth client of the official Model Context Protocol TypeScript SDK: it could send stored credentials to an authorization server chosen by a malicious MCP server. Fixed in `@modelcontextprotocol/sdk` 1.31.0 and `@modelcontextprotocol/client` 2.2.0.
+
 ### Now
 
 - **Hack The Box Academy** — Junior Cybersecurity Associate (CJCA) path, in progress. Done so far: Linux Fundamentals, Bash Scripting, Network Foundations, Introduction to Networking, Web Requests, Introduction to Web Applications, Windows Fundamentals.
